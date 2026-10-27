@@ -1,0 +1,15 @@
+{
+  "home": "Home", "scanner": "Scanner", "dashboard": "Dashboard", "history": "History", "learn": "Learn", "about": "About",
+  "heroTitle": "Stop phishing before it stops you.",
+  "heroSub": "PhishGuard AI inspects any link for impersonation, look-alike domains and scam patterns in milliseconds.",
+  "scanNow": "Scan a URL", "placeholder": "Paste a suspicious link…", "scan": "Scan",
+  "step1": "Parsing URL", "step2": "Checking domain & TLD", "step3": "Matching brand impersonation", "step4": "Scoring risk",
+  "SAFE": "Likely safe", "RISKY": "Risky", "DANGEROUS": "Dangerous",
+  "disclaimer": "No tool can guarantee a link is 100% safe. We never open scanned URLs.",
+  "riskScore": "Risk score", "threats": "Detected signals", "none": "No suspicious signals found.",
+  "demo": "Try a demo", "privacy": "Privacy mode (don't save history)",
+  "total": "Total scans", "empty": "No scans yet.", "clear": "Clear history",
+  "tip1": "Banks never ask for OTP or PIN over links.", "tip2": "Check the real domain — sbi.co.in, not sbi-kyc-update.xyz.",
+  "tip3": "Shortened links hide where they go. Expand before trusting.", "tip4": "Urgency (\"account suspended!\") is a classic scam trick.",
+  "aboutText": "PhishGuard AI is a heuristic phishing detector built for India's digital users, analyzing URL structure, brand impersonation and scam keywords."
+}
