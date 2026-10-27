@@ -8,3 +8,4 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- Scans are appended to Google Sheets server-side in src/lib/scan.functions.ts; sheet failures must never fail the scan (scan result is primary).
