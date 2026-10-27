@@ -35,7 +35,7 @@ function Scanner() {
     setUrl(u); setErr(""); setRes(null);
     for (let i = 0; i < 4; i++) { setStep(i); await new Promise((r) => setTimeout(r, 350)); }
     try {
-      const r = await scan({ data: { url: u } });
+      const r = await scan({ data: { url: u, privacy } });
       setRes(r); if (!privacy) saveScan(r);
     } catch (e) { setErr((e as Error).message); }
     setStep(-1);
